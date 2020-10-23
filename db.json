@@ -1,0 +1,39 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "firstName": "Jacob",
+      "lastName": "Martínez",
+      "age": 26,
+      "birthdate": "22/07/1994"
+    },
+    {
+      "id": 2,
+      "firstName": "Gonzalo",
+      "lastName": "Martínez",
+      "age": 20,
+      "birthdate": "26/09/200"
+    },
+    {
+      "firstName": "Arturo",
+      "lastName": "Martínez",
+      "age": "54",
+      "birthdate": "06/08/1984",
+      "id": 3
+    },
+    {
+      "firstName": "Johana",
+      "lastName": "Tapia",
+      "age": "25",
+      "birthdate": "17/02/1995",
+      "id": 4
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "age": "54",
+      "birthdate": "15/05/1956",
+      "id": 5
+    }
+  ]
+}

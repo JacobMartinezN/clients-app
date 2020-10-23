@@ -1,0 +1,29 @@
+
+<div class="card text-center">
+    <div class="card-header">
+        Add client
+    </div>
+    <form [formGroup]="clientForm" (submit)="createClient()">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" formControlName="firstName" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" formControlName="lastName" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <input type="text" class="form-control" formControlName="age" placeholder="Age">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" formControlName="birthdate" placeholder="Birthdate">
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            <button class="btn btn-primary">Add</button>
+        </div>
+    </form>
+</div>
